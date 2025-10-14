@@ -82,7 +82,10 @@ function Home() {
                 Catálogo
                 <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-[#e52b09] transition-all duration-300 group-hover:w-full"></span>
               </Link>
-              <Link className="relative group text-[#313137] text-lg tracking-wide">
+              <Link
+                to="/contact"
+                className="relative group text-[#313137] text-lg tracking-wide"
+              >
                 Contacto
                 <span className="absolute left-0 -bottom-1 h-[2px] w-0 bg-[#e52b09] transition-all duration-100 group-hover:w-full"></span>
               </Link>
@@ -93,7 +96,11 @@ function Home() {
                 className="m-0 p-0 leading-none text-[#e52b09] text-3xl font-bold transition-all duration-300 ease-in-out 
              hover:brightness-150 hover:scale-105 hover:drop-shadow-[0_0_1px_#e52b09]"
               >
-                Mi Logo
+                <img
+                  src="/assets/images/logo.svg"
+                  alt="Logo"
+                  className="w-26 h-26"
+                />
               </h1>
             </div>
 
